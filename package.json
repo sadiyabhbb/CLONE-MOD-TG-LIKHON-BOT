@@ -14,11 +14,6 @@
     "node-telegram-bot-api": "^0.61.0",
     "speakeasy": "^2.0.0",
     "uuid": "^9.0.0",
-    "fs-extra": "^11.1.1",
-    "@faker-js/faker": "^8.0.2",
-    "puppeteer": "^21.3.8",
-    "puppeteer-extra": "^3.3.6",
-    "puppeteer-extra-plugin-stealth": "^2.11.1",
-    "random-useragent": "^0.5.0"
+    "fs-extra": "^11.1.1"
   }
 }
