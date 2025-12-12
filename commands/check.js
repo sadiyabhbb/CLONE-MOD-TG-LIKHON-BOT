@@ -5,7 +5,7 @@ module.exports = (bot, globalConfig, prefix) => {
       credits: "LIKHON AHMED",
       prefix: true,
       permission: 0,
-      aliases: ["ck"],
+      aliases: ["ck", "ff"],
       description: "Check Bot Status",
       tags: ["Mng"],
     },
