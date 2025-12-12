@@ -5,14 +5,16 @@ module.exports = (bot, globalConfig, prefix) => {
       credits: "LIKHON AHMED",
       prefix: true,
       permission: 0,
-      aliases: ["ck", "ff"],
+      aliases: ["ck"],
       description: "Check Bot Status",
       tags: ["Mng"],
     },
   };
 
   const ADMIN_UID = globalConfig.ADMIN_UID;
-  const checkRegex = new RegExp(`^${prefix}check$|^${prefix}ck$`);
+  
+  // ^${prefix} দিয়ে শুরু হওয়া নিশ্চিত করা হয়েছে, যা অন্য কোনো prefix (যেমন / বা !) ব্লক করবে।
+  const checkRegex = new RegExp(`^${prefix}(check|ck)$`);
 
   const formatUptime = (ms) => {
     const totalSeconds = Math.floor(ms / 1000);
