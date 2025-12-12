@@ -1,6 +1,0 @@
-{
-  "BOT_TOKEN": "YOUR_TELEGRAM_BOT_TOKEN",
-  "ADMIN_UID": 123456789,
-  "ADMIN_USERNAME": "your_admin_username_without_@",
-  "PREFIX": "/"
-}
